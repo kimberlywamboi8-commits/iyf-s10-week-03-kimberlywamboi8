@@ -1,211 +1,62 @@
-# iyf-s10-week-03-kimberlywamboi8
-tools and workflow
-!DOCTYPE html>
-<html lang="en">
+# kimerly wambui - Week 03 Project
+my project is a responsive multi-page portfolio website built using HTML and CSS. 
+It includes pages for Home, About, Projects, and Contact. The goal was to practice structuring a website, applying responsive design, and improving accessibility.
+During this project, I focused on organizing files properly, creating reusable layouts, and making sure the website works well on both desktop and mobile devices.
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Linking the external css -->
-    <link rel="stylesheet" href="css/styles.css">
+## Live Demo
 
-    <title>Personal Website</title>
-</head>
+[View Live Site](https://kimberlywamboi8.github.io/iyf-s10-week-03-kimberlywamboi8)
 
-<body>
-    
-    <!-- Header > Nav > Logo & Menu -->
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#">Portfolio.</a>
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+## Screenshot
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="left">
-            <div class="content">
-                <h2>Hi, I'm <span class="stroke-text">Joe Doe</span></h2>
-                <p>Web Designer & Developer</p>
-                <p>I am a web designer and developer. I have a passion for web design and love to create for web and
-                    mobile devices.</p>
-                <a href="#" class="btn">Hire Me</a>
-            </div>
-        </div>
-        <div class="right">
-            <div class="image">
-                <img src="images/profile.jpg" alt="name">
-            </div>
-            <div class="card">
-                <div class="rotate-45"></div>
-            </div>
-            <div class="card">
-                <div class="rotate-minus-45"></div>
-            </div>
-        </div>
-    </section>
+![Project Screenshot](./images/[beautiful-african-woman-monochrome-portrait](https://github.com/user-attachments/assets/a977d579-d5d4-48b8-9241-b5b5b5695c10)
+)
 
-    <!-- projects Section -->
-    <section id="projects">
-        <div class="header">
-            <h1>My Projects</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatum ea quidem quibusdam accusamus
-                sint aperiam harum unde dolorem assumenda!</p>
-        </div>
-        <div class="projects-list">
-            <div class="project">
-                <div class="project-image">
-                    <img src="images/project.jpg" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h2 class="project-title">Project 1</h2>
-                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
-                        aperiam qui aliquam
-                        libero!</p>
-                    <div class="status">
-                        <a href="#" class="view-more-btn">View Project</a>
-                        <span class="count">200+</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-image">
-                    <img src="images/project.jpg" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h2 class="project-title">Project 1</h2>
-                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
-                        aperiam qui aliquam
-                        libero!</p>
-                    <div class="status">
-                        <a href="#" class="view-more-btn">View Project</a>
-                        <span class="count">200+</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-image">
-                    <img src="images/project.jpg" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h2 class="project-title">Project 1</h2>
-                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
-                        aperiam qui aliquam
-                        libero!</p>
-                    <div class="status">
-                        <a href="#" class="view-more-btn">View Project</a>
-                        <span class="count">200+</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-image">
-                    <img src="images/project.jpg" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h2 class="project-title">Project 1</h2>
-                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
-                        aperiam qui aliquam
-                        libero!</p>
-                    <div class="status">
-                        <a href="#" class="view-more-btn">View Project</a>
-                        <span class="count">200+</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-image">
-                    <img src="images/project.jpg" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h2 class="project-title">Project 1</h2>
-                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
-                        aperiam qui aliquam
-                        libero!</p>
-                    <div class="status">
-                        <a href="#" class="view-more-btn">View Project</a>
-                        <span class="count">200+</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-image">
-                    <img src="images/project.jpg" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h2 class="project-title">Project 1</h2>
-                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
-                        aperiam qui aliquam
-                        libero!</p>
-                    <div class="status">
-                        <a href="#" class="view-more-btn">View Project</a>
-                        <span class="count">200+</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+## Features
 
-    <!-- Skills Section -->
-    <!-- <section id="skills">
-        <div class="header">
-            <h1>My Skills</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora illum nam nostrum officiis et
-                doloremque!</p>
-        </div>
-        <div class="skills-list">
-            <div class="skill">
-                <img class="skill-img" src="images/project.jpg" alt="HTML">
-                <h3>HTML5</h3>
-            </div>
-        </div>
-    </section> -->
+- ✅ Responsive design
+- ✅ Accessible (WCAG compliant)
+- ✅ Multi-page layout
+- ✅ Contact form
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="background"></div>
-        <div class="contact-form">
-            <h1>Contact Me</h1>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="Enter your message"></textarea>
-                </div>
-                <div class="form-group">
-                    <button class="btn" type="submit">Send Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
+## Technologies Used
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <p style="text-align: center;">&copy; 2024 Portfolio. All Rights Reserved. <br> <a
-                    href="https://github.com/adhikareeprayush">Joy Nyambura</a></p>
-        </div>
-    </footer>
+- HTML5
+- CSS3 (Flexbox, Grid)
+- Git & GitHub
 
-</body>
+## Project Structure
 
-</html>
+\`\`\`
+iyf-s10-week-03-yourusername/
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+├── css/
+│   └── styles.css
+└── images/
+\`\`\`
+
+## What I Learned
+How to create multi-page websites and link pages together.
+How to use Flexbox and CSS Grid to build responsive layouts.
+The importance of semantic HTML for accessibility.
+How to organize project files and folders properly.
+How to deploy a website using GitHub Pages.
+## Future Improvements
+
+- [ ] Add JavaScript interactivity
+- [ ] Implement dark mode
+- [ ] Add project filtering
+
+## Contact
+
+- Email: kimberlywamboi8@email.com
+  
+- GitHub: [@kimberlywamboi8](https://github.com/kimberlywamboi)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
