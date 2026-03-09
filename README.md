@@ -1,4 +1,4 @@
-# kimerly wambui - Week 03 Project
+# kimberly wambui - Week 03 Project
 my project is a responsive multi-page portfolio website built using HTML and CSS. 
 It includes pages for Home, About, Projects, and Contact. The goal was to practice structuring a website, applying responsive design, and improving accessibility.
 During this project, I focused on organizing files properly, creating reusable layouts, and making sure the website works well on both desktop and mobile devices.
